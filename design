@@ -1,0 +1,20 @@
+
+for simple startup I will make a package that can run with wgdev
+
+this will provide me with most of the operations i need
+
+basically I will store a last runtime and do a search for
+items that have changed since then.
+
+the search will hit both the database and filesystem
+
+items in the filesystem will be loaded
+items inthe database will be stored
+
+it is up to the user to do updates for now.  
+
+perhaps in the future a few git commands can run when items in the filesystem
+are changed.
+
+perhaps...
+
